@@ -13,7 +13,7 @@ namespace MyFirstDemo.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "mango","apple","banana","orange" };
+            return new string[] { "mango","apple","banana","orange","guava" };
         }
 
         // GET api/values/5
